@@ -1,15 +1,15 @@
-1. why undefined is assigned?
-It is meant to know whether the memory is allocated or not.
+**1. why undefined is assigned?**
+* It is meant to know whether the memory is allocated or not.
 
-2. what is undefined?
-If the value is not present at that point of execution, it will be undefined.
+**2. what is undefined?**
+* If the value is not present at that point of execution, it will be undefined.
 
-3. What is ===?
-Checks whether it is strictly equal.
+**3. What is ===?**
+* Checks whether it is strictly equal.
 
-4. Why javascript is loosely typed language?
-It will not attach variable to the specific datatype. Datatype can be changed, hence it is loosely typed language.
-
+**4. Why javascript is loosely typed language?**
+* It will not attach variable to the specific datatype. Datatype can be changed, hence it is loosely typed language.
+```javascript
 //Example for loosely typed language
 var a;
 console.log(a);
@@ -27,4 +27,5 @@ if(a === undefined){
 else{
     console.log("a is not defined);
 }
+```
 
